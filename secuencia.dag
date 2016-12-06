@@ -1,0 +1,6 @@
+Job numero numero.condor
+Job seno seno.condor
+Job coseno coseno.condor
+Job collect collect.condor
+PARENT numero CHILD seno coseno
+PARENT seno coseno CHILD collect
